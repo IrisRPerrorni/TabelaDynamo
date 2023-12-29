@@ -6,3 +6,6 @@ Precisamos ter sempre uma identificação para o item. Assim como no banco de da
 
 
 O codigo desse repositório é somente uma aplicação basica , sem tratamentos de erros e validações para entender como funciona a tabela DynamoDb em código.  
+
+para testar que foi criada a tabela , usar o seguinte comando: 
+aws dynamodb list-tables --endpoint-url http://localhost:4566
